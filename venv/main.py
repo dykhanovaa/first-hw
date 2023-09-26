@@ -23,11 +23,11 @@ c = float(input())
 d = (b**2 - 4*a*c)
 if(d<0):
     print("Нет корней")
-if(d==0):
+elif(d==0):
     print("Один корень: ")
     k1 = (-b + d ** (0.5))/(2*a)
     print(k1)
-if(d>0):
+else:
     print("Два корня: ")
     k1 = (-b + d ** (0.5)) / (2 * a)
     print(k1)
